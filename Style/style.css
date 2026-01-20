@@ -112,3 +112,155 @@
     border: 1px solid white;
     background: none;
 }
+
+/* #fst-foot{
+    background-color: whitesmoke;
+} */
+
+#mdl-dscp{
+    text-align: center;
+}
+
+#mdl-dscp h3{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: auto;
+    padding-top: 50px;
+    margin-bottom: 16px;
+}
+
+#mdl-dscp p{
+    font-size: 16px;
+    color: #627382;
+}
+
+.cards{
+    margin: 44px 120px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.cards .card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px;
+    width: 250px;
+    height: 230px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+.cards .card .vector{
+    background-color: #f95555;
+    border: none;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+}
+
+.cards .card h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    line-height: auto;
+}
+
+.cards .card p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+}
+
+#mdl-dscp2{
+    margin: 0 120px 120px 120px;
+    background-color: whitesmoke;
+}
+
+#mdl-dscp2 .uper-dscp{
+    text-align: center;
+}
+
+#mdl-dscp2 .uper-dscp h3{
+    font-size: 40px;
+    font-weight: 900;
+    padding-top: 80px;
+    margin-bottom: 16px;
+}
+
+#mdl-dscp2 .uper-dscp p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 24px;
+}
+
+#mdl-dscp2 .lwr-dscp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mdl-dscp2 .lwr-dscp button{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #30B868;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    width: 194px;
+}
+
+#mdl-dscp2 .lwr-dscp button:hover{
+    background-color: #1d8e4c;
+}
+
+#mdl-dscp2 .lwr-dscp p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    padding-bottom: 80px;
+}
+
+#mdl-page{
+    padding: 120px;
+    display: flex;
+}
+
+#mdl-page .image{
+    width: 600px;
+    height: 600px;
+}
+
+#mdl-page .text{
+    padding: 102px 0 270px 80px;
+}
+
+#mdl-page .text .ttl{
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+
+#mdl-page .text h3{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#mdl-page .text p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+}
