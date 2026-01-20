@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 
 .inter {
   font-family: "Inter", sans-serif;
@@ -38,4 +41,74 @@
 
 .navbar .nav-btn button:hover{
     background-color: #1d8e4c;
+}
+
+#banner{
+    padding: 70px 120px 134px 120px;
+    background-image: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner .banner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#banner .banner-content .banner-ttle{
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+    line-height: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    max-width: 229px;
+    background-color: #FFFFFF;
+    padding: 8px 12px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+#banner .banner-content .banner-headline{
+    text-align: center;
+    font-size: 35px;
+    line-height: 84px;
+    margin-bottom: 16px;
+    /* max-width: 770px; */
+}
+
+#banner .banner-content .banner-descp{
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+#banner .banner-content .banner-btn button{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding: 12px 16px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#banner .banner-content .banner-btn .b1{
+    background-color: #30B868;
+}
+
+#banner .banner-content .banner-btn .b1:hover{
+    background-color: #1d8e4c;
+}
+
+#banner .banner-content .banner-btn .b2:hover{
+    background-color: #1d8e4c;
+}
+
+#banner .banner-content .banner-btn .b2{
+    border: 1px solid white;
+    background: none;
 }
